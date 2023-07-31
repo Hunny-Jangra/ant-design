@@ -34,7 +34,7 @@ const App: React.FC = () => {
       <Drawer
         title="Basic Drawer"
         placement={placement}
-        closable={false}
+        closable={true}
         onClose={onClose}
         open={open}
         key={placement}
